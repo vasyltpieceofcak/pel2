@@ -1,0 +1,1 @@
+jQuery(function($){window.addEventListener('resize',function(){var width=window.innerWidth;var element=document.getElementById('collapseExample');if(width<=1024){if(element.classList.contains('show')){element.classList.remove('show')}}});window.dispatchEvent(new Event('resize'))})
